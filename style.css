@@ -1,0 +1,207 @@
+body{
+    font-family: 'Philosopher', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    height: 965px;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    margin: 10px 0px;
+}
+h2{
+    font-size: 50px;
+    margin: 10px 0px;
+}
+h3{
+    font-size: 40px;
+    margin: 10px 0px;
+}
+h4{
+    font-size: 35px;
+    margin: 10px 0px;
+
+}
+
+p{
+    color: dimgray;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+button {
+    background: linear-gradient(45deg, #FF2379, #FFCA1C);
+    padding: 10px 20px;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 50px 15px;
+}
+button:hover{
+    background: linear-gradient(45deg, #FFCA1C, #FF2379);
+}
+.name{
+    color: #EC4E8B;
+}
+.half-side{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.intro{
+    position: relative;;
+    left: 250px;
+    top: 250px;
+}
+.top {
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: auto;
+}
+
+/* Biography section */
+
+.biography{
+    padding-top: 50px;
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.bio-text{
+    position: relative;;
+    right: 100px;
+    top: 100px;
+}
+
+/* Latest Work */
+
+.work{
+    padding-top: 85px;
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.work h2{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.work-imgs{
+    padding: 50px 150px;
+}
+.work img{
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+}
+/* .work img:last-child {margin-right: 0px;} */
+
+ /* testimonial */
+
+ .testimonial{
+    text-align: center;
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+    height: 1000px;
+    padding: 50px 0px;
+
+ }
+ .testimonial h2 {
+    text-align: center;
+    padding: 30px 0 80px 0;
+}
+ .client{
+    padding-bottom: 10px;
+ }
+ .speech {
+    padding: 0px 600px;
+}
+ .client p{
+    padding-bottom: 30px;
+ }
+ .contact{
+    padding-top: 120px;
+ }
+ .one-third{
+    width: 30%;
+    float: left;
+ }
+ .email {
+    background-color: #EC4E8C;
+    padding: 30px;
+    color: white;
+    margin-left: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+ .email h4{
+    font-size: 25px
+ }
+ .email h2{
+     padding: 0px 0px;
+     margin: 0px 0px;
+ }
+
+ .email a {
+    color: black;
+    font-size: 35px;
+}
+.email a:hover{
+    color: wheat;
+}
+.or{
+    padding-top: 55px;
+}
+.comment h3 {
+    margin: -35px 0px 33px 0px;
+    padding: 0px;
+}
+.contact-form{
+
+}
+.contact-form button {
+    text-align: left;
+    background: black;
+    color: white;
+    border-radius: 15px;
+    box-shadow: none;
+}
+.contact-form button a:hover{
+    color: #EC4E8C;
+}
+.contact-form label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 7px;
+    text-align: left;
+}
+.contact-form textarea{
+    height: 100px;
+    width: 100%;
+}
+.con-com{
+    margin-top: 20px;
+}
+#cname{
+    font-size: 16px;
+    padding: 5px 0px 5px 10px;
+    width: 100%;
+}
+#ccomment{
+    font-size: 16px;
+    padding: 5px 0px 5px 10px;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
